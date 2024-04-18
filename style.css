@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+  margin: 50px 50px 50px 50px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.color-title {
+  color: #191970;
+}
+
+.card {
+  width: 48%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.title-image {
+  width: 46%;
+  float: left;
+  margin: 4%;
+  border: 5px solid #ffb962;
+}
+
+footer {
+  text-align: right;
+  color: white;
+  text-align: center;
+  background-color: midnightblue;
+  height: 50px;
+  margin-bottom: 0;
+  border: solid #ffb962;
+  border-width: 0 0 5px 0;
+}
+
+@media (min-width: 681px) and (max-width: 1200px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  .main {
+    flex: 1;
+    margin: 50px 50px 50px 50px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .color-title {
+    color: #191970;
+  }
+
+  .card {
+    width: 48%;
+  }
+
+  .title-image {
+    width: 80%;
+    margin-left: 0;
+    border: 5px solid #ffb962;
+  }
+
+  .car-title {
+    text-align: center;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+    text-align: center;
+    background-color: midnightblue;
+    height: 50px;
+    margin-bottom: 0;
+    border: solid #ffb962;
+    border-width: 0 0 5px 0;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  .main {
+    flex: 1;
+    margin: 50px 50px 0 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .color-title {
+    color: #191970;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .title-image {
+    width: 95%;
+    margin-left: 0;
+    border: 5px solid #ffb962;
+  }
+
+  footer {
+    text-align: right;
+    color: white;
+    text-align: center;
+    background-color: midnightblue;
+    height: 50px;
+    margin-bottom: 0;
+    border: solid #ffb962;
+    border-width: 0 0 5px 0;
+  }
+}
